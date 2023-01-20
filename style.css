@@ -1,0 +1,156 @@
+
+body{
+    overflow-x: hidden;
+    background: #f0f0f0;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #2874f0;
+    /* justify-content: center; */
+    display: flex;
+    padding: 0px 0px;
+    height: 56px;
+    align-items: center;
+}
+nav div {
+    margin-right: 20px;
+}
+.logo {
+    margin-top: 15px;
+    margin-left: 390px;
+    
+}
+.logo p {
+    color: white;
+    font-style: italic;
+    font-weight: 100; 
+    font-size: 11px;
+    margin-top: -1px;
+}
+
+
+.plus {
+    color: #ffe500;
+    font-size: 11px;
+    margin-top: -1px;
+    margin-right: 0px;
+    /* font-weight: 500; */
+}
+
+
+input::placeholder {
+    font-size: 14px;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    padding: 5px 10px;
+    margin-left: -7px;
+    /*  */
+    /*  */
+    
+
+}
+.form{
+    /* border-radius: 2px 0 0 2px; */
+    /* border-radius: 2px; */
+}
+.sbtn{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: inherit;
+    width: 44px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-left: -7px;
+    
+    /* cursor: pointer; */
+    /* padding: 4px 12px 0 8px; */
+    /* margin-top: -1px; */
+}
+.search{
+    
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    border-radius: 6px ;
+}
+.faimg{
+    color:rgb(40, 116, 241);
+}
+
+.loginbtn {
+    background-color: white;
+    color: #2874f0;
+    font-weight: 500;
+    border-radius: 2px;
+    border-color: transparent;
+    padding: 6px 40px;
+    margin-left: 25px;
+    text-decoration: none;
+
+}
+
+.drpdwn{      
+    margin-top: 9px;
+    display: none;
+    width: max-content;
+    text-align: center;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 15px;
+    /*z-index: 1;*/
+}
+.drpdwn-item {
+    padding: 14px 18px;
+    display: block;
+    text-decoration: none;
+    color: navy;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.moreBtn{
+    margin-left: 17px;
+}
+.moreBtn:hover .drpdwn{
+    display: block;
+}
+
+.moreBtn:hover .mdown{
+    /* display: none; */
+    transition: 0.3s;
+    transform: rotate(-180deg);
+}
+.mdown{
+    transition: 0.3s;
+}
+.cartBtn{
+    margin-left: 17px;
+}
+.cmn span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .1px;
+   
+   
+}
+.seller{
+    margin-left: 23px;
+}
+.cmn a {
+    text-decoration: none;
+}
+
+
+
+
+  
